@@ -1,0 +1,1 @@
+"""Nonprofit search example package."""

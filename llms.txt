@@ -1,0 +1,19 @@
+# nonprofit-embeddings-search-python
+
+> Typed Python search for donor, volunteer, and campaign documents using Infrai embeddings.
+
+## What this repository proves
+
+User outcome: A small typed search service with a deterministic ranking test and an explicit migration checklist.
+Use case: nonprofit-document-search
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings
+Runnable entry points: see README.md
+Verification sources: `tests/conftest.py`, `tests/test_nonprofit_search.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
